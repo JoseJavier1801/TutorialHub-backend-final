@@ -1,7 +1,10 @@
 package com.josejavier.Controller;
 
+import com.josejavier.mail.EmailBody;
+import com.josejavier.mail.EmailService;
 import com.josejavier.model.Petition;
 import com.josejavier.DTO.PetitionDTO;
+import com.josejavier.service.ClientService;
 import com.josejavier.service.PetitionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -17,6 +20,8 @@ public class PetitionController {
 
     @Autowired
     private  PetitionService petitionService;
+    @Autowired
+    private ClientService clientService;
 
     /**
      *  Función para crear o actualizar una petición en la base de datos
@@ -147,6 +152,9 @@ public class PetitionController {
                                               @RequestParam("state") String newState,
                                               @RequestParam("message") String newMessage) {
         petitionService.updatePetitionStateAndMessage(petitionId, newState, newMessage);
+        //llama a la funcion de mail para enviar el mensaje
+        EmailService emailService = new EmailService();
+        emailService.sendEmail(new EmailBody(newState, newMessage,clientService.getClientById(petitionService.getClientById(petitionId).getId()).getMail()));
     }
 
 
