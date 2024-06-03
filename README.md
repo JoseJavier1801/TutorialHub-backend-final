@@ -57,7 +57,7 @@ Para instalar TutorialHub en tu dispositivo local, sigue estos pasos:
 
 1. **Clonar el repositorio:** Copia este enlace en tu terminal para clonar el repositorio en tu PC utilizando Git:
    ```bash
-   git clone https://github.com/JoseJavier1801/TutorialHub.git.
+   git clone https://github.com/JoseJavier1801/TutorialHub-backend-final.git.
    
 2. **Abrir con un entorno de desarrollo:**
    -  Una vez clonado, abre el proyecto con tu entorno de desarrollo preferido. Recomendamos utilizar IntelliJ IDEA.
