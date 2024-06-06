@@ -1,6 +1,6 @@
 # TutorialHub
 
-**TutorialHub** es una plataforma educativa que facilita la interacción fluida entre estudiantes y profesores. Los usuarios pueden registrarse como estudiantes o profesores, permitiendo a los educadores gestionar sus clases de manera efectiva a través de funciones como la creación, eliminación y edición de clases. Mientras tanto, los estudiantes pueden unirse a clases y proporcionar comentarios valiosos a través de valoraciones.
+**TutorialHub** es una plataforma educativa que facilita la interacción fluida entre estudiantes y profesores. Los usuarios pueden registrarse como estudiantes o profesores, permitiendo a los profesores gestionar sus clases de manera efectiva a través de funciones como la creación, eliminación y edición de clases. Mientras tanto, los estudiantes pueden unirse a clases y proporcionar comentarios valiosos a través de valoraciones.
 
 ## Características
 
