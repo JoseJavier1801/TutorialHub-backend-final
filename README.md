@@ -49,7 +49,7 @@
 3. **Proporciona Retroalimentación:**
    - Después de asistir a una clase, comparte tus pensamientos y evalúa la experiencia.
   
-   Enlace a swagger: https://tutorialhubbackend.onrender.com/swagger-ui/index.html
+   Enlace a swagger: https://tutorialhub-backend-final.onrender.com/swagger-ui/index.html
 
 ### Instalación local
 
